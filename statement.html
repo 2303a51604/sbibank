@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SBI Bank Statements</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; background:#f2f2f2;}
+    .navbar { background:#003366; color:#fff; padding:15px; display:flex; justify-content:space-between; }
+    .navbar a { color:#fff; text-decoration:none; margin-left:10px; }
+    .container { width:90%; max-width:800px; margin:30px auto; background:#fff; padding:20px; border-radius:12px; box-shadow:0 0 8px rgba(0,0,0,0.2);}
+    table { width:100%; border-collapse:collapse; margin-top:15px;}
+    table, th, td { border:1px solid #ccc; }
+    th, td { padding:12px; text-align:center; }
+    th { background:#003366; color:white; }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <h2>Bank Statements</h2>
+    <div>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="index.html">Logout</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h3>Account Transactions</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Description</th>
+          <th>Debit (₹)</th>
+          <th>Credit (₹)</th>
+          <th>Balance (₹)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>20-Sep-2025</td>
+          <td>ATM Withdrawal</td>
+          <td>2,000</td>
+          <td>-</td>
+          <td>83,000</td>
+        </tr>
+        <tr>
+          <td>15-Sep-2025</td>
+          <td>Salary Credit</td>
+          <td>-</td>
+          <td>50,000</td>
+          <td>85,000</td>
+        </tr>
+        <tr>
+          <td>10-Sep-2025</td>
+          <td>Online Transfer</td>
+          <td>5,000</td>
+          <td>-</td>
+          <td>35,000</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

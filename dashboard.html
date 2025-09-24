@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SBI Dashboard</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; background:#f2f2f2;}
+    .navbar { background:#003366; color:#fff; padding:15px; display:flex; justify-content:space-between; }
+    .navbar a { color:#fff; text-decoration:none; margin-left:10px; }
+    .container { width:90%; max-width:600px; margin:30px auto; background:#fff; padding:20px; border-radius:12px; box-shadow:0 0 8px rgba(0,0,0,0.2);}
+    .card { background:#e6f0ff; padding:15px; margin:10px 0; border-radius:8px; }
+    button { margin:5px; padding:10px 15px; background:#003366; color:#fff; border:none; border-radius:6px; cursor:pointer; }
+    button:hover { background:#00509e; }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <h2>SBI Dashboard</h2>
+    <div>
+      <a href="statements.html">Bank Statements</a>
+      <a href="index.html">Logout</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h3>Welcome, Customer!</h3>
+    <div class="card">
+      <p><strong>Account Number:</strong> 1234567890</p>
+      <p><strong>Account Balance:</strong> ₹ 85,000</p>
+    </div>
+
+    <div class="card">
+      <h4>Quick Actions</h4>
+      <button>Transfer Money</button>
+      <button>Pay Bills</button>
+      <button>View Profile</button>
+    </div>
+  </div>
+</body>
+</html>
